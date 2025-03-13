@@ -1,0 +1,602 @@
+.animated {
+  animation-duration: 0.1s;
+}
+.swiper-container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+.div_clear {
+  clear: both;
+}
+.head {
+  position: fixed;
+}
+.div_tit h2 {
+  font-size: 0.48rem;
+  color: #333;
+  line-height: 100%;
+  margin-bottom: 0.4rem;
+}
+.section1 .swiper-container-homebanner .banner_txt {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 0.4rem;
+  z-index: 10;
+}
+.section1 .swiper-container-homebanner .banner_txt h3 {
+  font-size: 0.42rem;
+  color: #fff;
+  line-height: 1.5;
+}
+.section1 .swiper-container-homebanner .banner_txt h3 a {
+  font-size: 0.42rem;
+  color: #fff;
+}
+.section1 .swiper-container-homebanner .banner_txt p {
+  font-size: 0.18rem;
+  color: #fff;
+  line-height: 1.5;
+}
+.section1 .swiper-container-homebanner .banner_txt a h3 {
+  color: #fff;
+}
+.section1 .swiper-container-homebanner .banner_txt a p {
+  color: #fff;
+}
+.section1 .swiper-container-homebanner .banner_icons {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  z-index: 99;
+  text-align: right;
+  width: auto;
+}
+.section1 .swiper-container-homebanner .banner_icons span {
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  border: 0.02rem solid #fff;
+  box-sizing: border-box;
+  background: none;
+  margin: 0 0.1rem;
+}
+.section1 .swiper-container-homebanner .banner_icons span.icons-active {
+  opacity: 1;
+  position: relative;
+}
+.section1 .swiper-container-homebanner .banner_icons span.icons-active::after {
+  content: "";
+  display: block;
+  width: 0.05rem;
+  height: 0.05rem;
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
+  top: 0.05rem;
+  left: 0.05rem;
+}
+.section1 .swiper-container-homebanner .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 50;
+}
+.section1 .swiper-container-homebanner .swiper-slide a::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3rem;
+    background: url(../images/home/banner_fix1.png) no-repeat center bottom;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+
+
+}
+.section1 .swiper-container-homebanner .swiper-slide a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2rem;
+  background: url(../images/home/banner_fix2.png) no-repeat center bottom;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.section1 .div_entrance {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -2.4rem;
+  width: 1.14rem;
+  height: 4.8rem;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 50;
+}
+.section1 .div_entrance ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section1 .div_entrance ul li {
+  width: 100%;
+  height: 1.2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 .div_entrance ul li a {
+  font-size: 0.16rem;
+  color: #fff;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-top: 0.4rem;
+}
+.section1 .div_entrance ul li:nth-child(1) a {
+  background-image: url(../images/home/en_icon1.png);
+}
+.section1 .div_entrance ul li:nth-child(2) a {
+  background-image: url(../images/home/en_icon2.png);
+}
+.section1 .div_entrance ul li:nth-child(3) a {
+  background-image: url(../images/home/en_icon3.png);
+}
+.section1 .div_entrance ul li:nth-child(4) a {
+  background-image: url(../images/home/en_icon4.png);
+}
+.section1 .nextIcon {
+  display: block;
+  width: 0.32rem;
+  height: 0.19rem;
+  background: url(../images/home/nexticon.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  margin-left: 0.16rem;
+  z-index: 999;
+  cursor: pointer;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+}
+.section1 .nextIcon:hover {
+  background: url(../images/home/nexticonh.png) no-repeat;
+  background-size: cover;
+}
+.section2 {
+  height: 3.2rem !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.section2 .section_tabs {
+  padding-top: 0.7rem;
+}
+.section2 .section_tabs .ol_tabicons {
+  overflow: hidden;
+}
+.section2 .section_tabs .ol_tabicons li {
+  float: left;
+  padding-right: 0.35rem;
+  margin-right: 0.35rem;
+  position: relative;
+}
+.section2 .section_tabs .ol_tabicons li h3 {
+  font-size: 0.3rem;
+  color: #999;
+  line-height: 100%;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
+.section2 .section_tabs .ol_tabicons li.on h3 {
+  color: #333;
+}
+.section2 .section_tabs .ol_tabicons li::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 0.26rem;
+  background: #999;
+  position: absolute;
+  right: 0;
+  top: 0.04rem;
+}
+.section2 .section_tabs .ol_tabicons li:last-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 0.26rem;
+  background: white;
+  position: absolute;
+  right: 0;
+  top: 0.04rem;
+}
+.section2 .section_tabs .span_text {
+  display: block;
+  font-size: 0.3rem;
+  color: #333;
+  line-height: 100%;
+  margin-bottom: 0.6rem;
+}
+.section2 .section_tabs .div_tabdivs ul {
+  overflow: hidden;
+  padding-bottom: 0.1rem;
+}
+.section2 .section_tabs .div_tabdivs ul li {
+  float: left;
+  width: 46%;
+  overflow: hidden;
+  padding: 0.2rem 0;
+  border-bottom: 1px dashed #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section2 .section_tabs .div_tabdivs ul li p {
+  float: left;
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.section2 .section_tabs .div_tabdivs ul li p a {
+  font-size: 0.24rem;
+  color: #333;
+}
+.section2 .section_tabs .div_tabdivs ul li p:hover a {
+  color: #e8340c;
+}
+.section2 .section_tabs .div_tabdivs ul li span {
+  font-size: 0.16rem;
+  color: #999;
+  float: right;
+}
+.section2 .section_tabs .div_tabdivs ul li:nth-child(2n) {
+  float: right;
+}
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+}
+dl.home_list {
+  overflow: hidden;
+  position: relative;
+}
+dl.home_list dt {
+  width: 23%;
+  float: left;
+  position: relative;
+  padding-top: 0;
+}
+dl.home_list dt .div_tit h2 {
+  margin-bottom: 0.4rem;
+}
+dl.home_list dt .div_tit h2::after {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 0.06rem;
+  background: #e8340c;
+  margin-top: 0.25rem;
+}
+dl.home_list dt .div_tit p {
+  font-size: 0.2rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 0.2rem;
+}
+dl.home_list dd {
+  width: 70%;
+  float: right;
+  overflow: hidden;
+}
+dl.home_list dd .div_img {
+  animation-duration: 0.4s;
+  animation-delay: 0.45s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: relative;
+  overflow: hidden;
+}
+dl.home_list dd .div_img::before {
+  content: "";
+  display: none;
+  width: 80%;
+  height: 0.45rem;
+  background: #000;
+  float: right;
+  opacity: 0;
+}
+dl.home_list dd .div_img.dion::before {
+  opacity: 1;
+  animation: mymove 4s ease-in-out 0s 1 alternate forwards;
+}
+dl.home_list dd .div_img img {
+  display: block;
+  width: 100%;
+  transform: scale(1);
+  transition:0.7s ease-in-out;
+}
+dl.home_list dd .div_img:hover img {
+  transform: scale(1.06);
+}
+dl.home_list dd .div_img p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.2rem;
+  line-height: 1.5;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+dl.home_list dd .slide_nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 23%;
+}
+dl.home_list dd .slide_nav ul li {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.15rem 0;
+  padding-right: 0.3rem;
+}
+dl.home_list dd .slide_nav ul li a {
+  display: block;
+  font-size: 0.24rem;
+  color: #333;
+  width: 100%;
+  font-weight: normal;
+  background: url(../images/home/tit_icon01.png) no-repeat right center;
+}
+dl.home_list dd .slide_nav ul li:hover a {
+  color: #e8380d;
+}
+dl.home_list dd .slide_nav ul li:last-child {
+  margin: 0;
+}
+@keyframes mymove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section4 dl dt {
+  float: right;
+}
+.section4 dl dd {
+  float: left;
+}
+.section4 dl dd .slide_nav {
+  left: unset;
+  right: 0;
+}
+.section4 dl.home_list dd .slide_nav ul li:hover a {
+  color: #f5a100;
+}
+.section5 dl.home_list dd .slide_nav ul li:hover a {
+  color: #81b934;
+}
+.section3 dl.home_list dt .div_tit h2::after,
+.section3 dl.home_list dd .div_img::before {
+  background: #e8380d;
+}
+.section3 dl.home_list dd .slide_nav ul li:hover a {
+  background: url(../images/home/tit_icon01-1.png) no-repeat right center;
+}
+.section4 dl.home_list dt .div_tit h2::after,
+.section4 dl.home_list dd .div_img::before {
+  background: #f5a100;
+}
+.section4 dl.home_list dd::before {
+  float: left;
+}
+.section4 dl.home_list dd .slide_nav ul li:hover a {
+  background: url(../images/home/tit_icon01-2.png) no-repeat right center;
+}
+.section5 dl.home_list dt .div_tit h2::after,
+.section5 dl.home_list dd .div_img::before {
+  background: #81b934;
+}
+.section5 dl.home_list dd .slide_nav ul li:hover a {
+  background: url(../images/home/tit_icon01-3.png) no-repeat right center;
+}
+@media screen and (max-width: 1200px) {
+  .section2{
+    height:auto !important;
+  }
+  .section2 .section_tabs .div_tabdivs ul li {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 0.2rem 0;
+    border-bottom: 1px dashed #d6d6d6;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    background: #f5f5f5;
+  }
+  .swiper-container-home {
+    overflow: scroll;
+  }
+  .swiper-container-home > .swiper-wrapper {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .section2,
+  .section3,
+  .section4,
+  .section5 {
+    padding: 0 0.3rem;
+    margin-bottom: 0.3rem;
+    display: block;
+  }
+  .section1 .nextIcon {
+    display: none;
+  }
+  .section1 .swiper-container-homebanner .banner_txt {
+    left: 0.3rem;
+    bottom: 0.25rem;
+  }
+  .section1 .swiper-container-homebanner .banner_txt h3 {
+    font-size: 0.3rem;
+  }
+  .section1 .swiper-container-homebanner .banner_txt p {
+    display: none;
+  }
+  .section1 .swiper-container-homebanner .banner_icons {
+    right: 0.3rem;
+    bottom: 0.25rem;
+  }
+  dl.home_list {
+    height: auto;
+    display: block;
+    background: #fff;
+    padding: 0.3rem;
+  }
+  dl.home_list dt {
+    width: 100%;
+    padding: 0;
+  }
+  dl.home_list dt .div_tit {
+    padding-top: 0.2rem;
+  }
+  dl.home_list dt .div_tit h2 {
+    font-size: 0.3rem;
+    margin-bottom: 0.2rem !important;
+  }
+  dl.home_list dt .div_tit p {
+    font-size: 0.24rem;
+    line-height: 2;
+  }
+  dl.home_list dt .div_tit p:last-child {
+    text-align: right;
+  }
+  dl.home_list dd {
+    width: 100%;
+    height: auto;
+  }
+  dl.home_list dd::before {
+    width: 90%;
+    height: 0.25rem;
+  }
+  dl.home_list dd .div_img p {
+    font-size: 0.24rem;
+    line-height: 1.8;
+    padding: 0.2rem 0;
+    position: static;
+    background: none;
+    color: #333;
+    text-align: justify;
+  }
+  dl.home_list dd .slide_nav {
+    position: static;
+    width: auto;
+  }
+  dl.home_list dd .slide_nav ul li a {
+    font-size: 0.3rem;
+  }
+  .section2 .section_tabs .ol_tabicons li {
+    float: left;
+    padding-right: 0.22rem;
+    margin-right: 0.22rem;
+    position: relative;
+  }
+  .section2 {
+    display: block;
+    height: auto!important;
+  }
+  .section2 .section_tabs {
+    background: #fff;
+    padding: 0.3rem;
+  }
+  .section2 .section_tabs .div_tabdivs ul li {
+    width: 100%;
+    line-height: normal;
+    padding: 0.2rem 0;
+  }
+  .section2 .section_tabs .div_tabdivs ul li p {
+    margin-bottom: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .section2 .section_tabs .div_tabdivs ul li p a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .section2 .section_tabs .div_tabdivs ul li span {
+    float: none;
+  }
+  .section2 .section_tabs .div_tabdivs ul li {
+    overflow: hidden;
+    display: block;
+  }
+  .section2 .section_tabs .div_tabdivs ul li p {
+    width: 100%;
+  }
+  .section2 .section_tabs .div_tabdivs ul li span {
+    float: right;
+  }
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6 {
+    margin-bottom: 0.3rem !important;
+  }
+  .body_b {
+    position: static!important;
+  }
+  .body_home {
+    height: 10rem!important;
+  }
+  .body_b {
+    padding-top: 0.2rem !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .body_home {
+    height: 5rem!important;
+  }
+  .section1 .div_entrance {
+    display: none;
+  }
+}
+.mourn {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  -webkit-filter: grayscale(100%);
+}

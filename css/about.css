@@ -1,0 +1,698 @@
+.profile .div_mod dl dd .div_text {
+  height: 4rem;
+  overflow-x: hidden;
+}
+.profile .div_mod9 dl dd .div_text {
+  height: auto;
+}
+.container .div_tit,
+.container .div_text {
+  visibility: inherit!important;
+}
+.profile .div_mod dl {
+  overflow: hidden;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  background: #f5f5f5;
+}
+.profile .div_mod dl dt {
+  float: left;
+  width: 48%;
+  overflow: hidden;
+}
+.profile .div_mod dl dt img {
+    transform: scale(1);
+    transition: transform 0.3s linear;
+}
+.profile .div_mod dl dt:hover img{
+    transform: scale(1.1);
+}
+.profile .div_mod dl dd {
+  float: right;
+  width: 42%;
+  display: flex;
+  align-items: center;
+}
+.profile .div_mod dl.dl_state2 dt {
+  float: right;
+}
+.profile .div_mod dl.dl_state2 dd {
+  float: left;
+}
+.profile .div_mod4 {
+  background: url(../images/aboutus/img03.jpg) no-repeat center bottom;
+  background-size: cover;
+  padding-bottom: 1.2rem;
+}
+.profile .div_mod4 .div_text {
+  padding: 0 1rem;
+}
+.profile .div_mod4 .ul_nulist {
+  padding: 0 1rem;
+  padding-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profile .div_mod4 .ul_nulist li {
+  width: 16.6%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 0.3rem;
+  align-content: flex-start;
+}
+.profile .div_mod4 .ul_nulist li span {
+  display: block;
+  font-size: 0.6rem;
+  color: #e8340c;
+}
+.profile .div_mod4 .ul_nulist li b {
+  font-size: 0.1rem;
+}
+.profile .div_mod4 .ul_nulist li p {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #555;
+  line-height: 0.4rem;
+}
+.profile .div_mod5 {
+  background: url(../images/aboutus/img04.jpg) no-repeat center bottom;
+  background-size: cover;
+  padding-bottom: 1.2rem;
+}
+.profile .div_mod5 .ul_nulist {
+  padding: 0 1rem;
+  padding-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profile .div_mod5 .ul_nulist li {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 0.6rem;
+  align-content: flex-start;
+}
+.profile .div_mod5 .ul_nulist li:nth-child(5),
+.profile .div_mod5 .ul_nulist li:nth-child(6) {
+  width: 50%;
+  margin-bottom: 0;
+}
+.profile .div_mod5 .ul_nulist li span {
+  display: block;
+  font-size: 0.6rem;
+  color: #e8340c;
+}
+.profile .div_mod5 .ul_nulist li b {
+  font-size: 14px;
+}
+.profile .div_mod5 .ul_nulist li p {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #555;
+  line-height: 0.4rem;
+}
+.profile .div_mod7 dt {
+  display: flex;
+  align-items: center;
+}
+.profile .div_mod7 dd {
+  padding-top: 0!important;
+}
+.profile .div_mod7 dd .div_text {
+  height: auto!important;
+}
+.profile .div_mod8 .div_img {
+  padding-top: 1rem;
+}
+.profile .div_mod8 dl {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row-reverse;
+}
+.profile .div_mod8 dd {
+  padding-top: 0!important;
+}
+.profile .div_mod8 dd .div_text {
+  height: auto!important;
+}
+.profile .div_mod7 dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.history {
+  overflow: hidden;
+}
+.history .div_l {
+  float: left;
+  width: 25%;
+}
+.history .div_l ul li {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 1px solid #d4d4d4;
+  position: relative;
+}
+.history .div_l ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.26rem;
+  color: #333;
+  padding-left: 0.5rem;
+}
+.history .div_l ul li::after {
+  content: "";
+  display: block;
+  border: solid #ccc;
+  border-width: 0 0.03rem 0.03rem 0;
+  display: inline-block;
+  padding: 0.06rem;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  margin-top: -0.04rem;
+}
+.history .div_l ul li.on,
+.history .div_l ul li:hover {
+  background: #e8340c;
+}
+.history .div_l ul li.on a,
+.history .div_l ul li:hover a {
+  color: #fff;
+}
+.history .div_l ul li.on::after,
+.history .div_l ul li:hover::after {
+  border: solid #fff;
+  border-width: 0 0.03rem 0.03rem 0;
+}
+.history .div_r {
+  float: left;
+  width: 100%;
+}
+.history .div_r ul {
+  border-left: 2px solid #d4d4d4;
+}
+.history .div_r ul li {
+  padding-left: 0.3rem;
+  margin-bottom: 0.7rem;
+  position: relative;
+}
+.history .div_r ul li::before {
+  content: "";
+  display: block;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(../images/aboutus/h_icon1.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: -0.12rem;
+  top: 0.16rem;
+}
+.history .div_r ul li span.time {
+  width: 1.32rem;
+  height: 0.5rem;
+  text-align: center;
+  line-height: 0.5rem;
+  font-size: 0.24rem;
+  color: #333;
+  display: block;
+  background: url(../images/aboutus/h_icon3.png) no-repeat;
+  background-size: 1.32rem 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.history .div_r ul li h3 {
+  font-size: 0.26rem;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+.history .div_r ul li .div_more {
+  overflow: hidden;
+  margin-bottom: 0.2rem;
+  height: 0.4rem;
+}
+.history .div_r ul li .div_more p {
+  font-size: 0.24rem;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+.history .div_r ul li .div_more img {
+  width: 48%!important;
+  height: auto!important;
+  margin-top: 0.2rem;
+  float: left;
+  margin-right: 2%;
+}
+.history .div_r ul li a {
+  font-size: 0.2rem;
+  color: #999;
+}
+.history .div_r ul li.current::before {
+  background: url(../images/aboutus/h_icon2.png) no-repeat;
+  background-size: 100%;
+}
+.history .div_r ul li.current a,
+.history .div_r ul li.current span.time {
+  color: #e8340c;
+}
+.history .div_r .div_px {
+  text-align: right;
+}
+.history .div_r .div_px span {
+  display: inline-block;
+  width: 0.46rem;
+  height: 0.46rem;
+  cursor: pointer;
+  margin-left: 0.15rem;
+  position: relative;
+}
+.history .div_r .div_px span.s1 {
+  background: url(../images/aboutus/px01.png) no-repeat center;
+  background-size: 100%;
+}
+.history .div_r .div_px span.s1.on {
+  background: url(../images/aboutus/px01.png) no-repeat center;
+  background-size: 100%;
+}
+.history .div_r .div_px span.s1:hover::after {
+  content: "正序";
+  display: block;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  width: 0.46rem;
+  color: #e8340c;
+  text-align: center;
+}
+.history .div_r .div_px span.s2 {
+  background: url(../images/aboutus/px01w.png) no-repeat center;
+  background-size: 100%;
+}
+.history .div_r .div_px span.s2:hover::after {
+  content: "正序";
+  display: block;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  width: 0.46rem;
+  color: #e8340c;
+  text-align: center;
+}
+.history .div_r .div_px span.s2.on {
+  background: url(../images/aboutus/px02w.png) no-repeat center;
+  background-size: 100%;
+}
+.history .div_r .div_px span.s2.on:hover::after {
+  content: "倒序";
+  display: block;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  width: 0.46rem;
+  color: #e8340c;
+  text-align: center;
+}
+.scenery .div_mod1 .div_l {
+  width: 55%;
+}
+.scenery .div_mod1 .div_l ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.scenery .div_mod1 .div_l ul li {
+  width: 48%;
+  position: relative;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+.scenery .div_mod1 .div_l ul li a img {
+    transform: scale(1);
+  transition: transform 0.3s linear;
+}
+.scenery .div_mod1 .div_l ul li span {
+  font-size: 0.42rem;
+  color: #fff;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.2rem;
+  z-index: 50;
+  display: none;
+}
+.scenery .div_mod1 .div_l ul li:hover a img {
+  transform: scale(1.1);
+}
+.scenery .div_mod1 .div_l ul li:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/aboutus/s_icon1.png);
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.scenery .div_mod1 .div_r {
+  width: 45%;
+  padding-left: 1rem;
+  padding-top: 0.6rem;
+}
+.scenery .div_mod1 .div_r .div_text p {
+  line-height: 2;
+}
+.scenery .div_mod2 .div_text p {
+  line-height: 2;
+}
+.scenery .div_mod2 .lunbo .swiper-slide .imgbox {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.scenery .div_mod2 .lunbo .swiper-slide .imgbox img {
+   transform: scale(1);
+   transition: transform 0.3s linear;
+}
+.scenery .div_mod2 .lunbo .swiper-slide .imgbox:hover img {
+    transform: scale(1.1);
+}
+.scenery .div_mod2 .lunbo .swiper-slide .imgbox:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/aboutus/s_icon1.png);
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.scenery .popupWin {
+  position: fixed;
+  z-index: -1;
+  top: 5%;
+  width: 16rem;
+  margin-left: -8rem;
+  left: 50%;
+  transform: scale(0.8);
+  opacity: 0;
+}
+.scenery .popupWin .div_imgs {
+  background: #e1e1e1;
+  overflow: hidden;
+  padding: 0.25rem;
+  margin-bottom: 0.4rem;
+}
+.scenery .popupWin .div_imgs .div_r {
+  width: 35%;
+  padding-left: 0.7rem;
+  padding-right: 0.5rem;
+}
+.scenery .popupWin .div_imgs .div_r .div_tit h2 {
+  font-size: 0.32rem;
+}
+.scenery .popupWin .div_imgs .div_l {
+  width: 65%;
+}
+.scenery .popupWin .div_imgs .div_l .swiper-slide img {
+  height: 7rem;
+}
+.scenery .popupWin .div_icons {
+  padding: 0 1rem;
+  position: relative;
+}
+.scenery .popupWin .div_icons .swiper-slide {
+  cursor: pointer;
+}
+.scenery .popupWin .div_icons .swiper-slide img {
+  border: 0.05rem solid #fff;
+  height: 1.6rem;
+}
+.scenery .popupWin .div_icons .swiper-slide-thumb-active img {
+  border: 0.05rem solid #e8340c;
+}
+.scenery .popupWin .close {
+  display: block;
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../images/close.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: -0.5rem;
+  cursor: pointer;
+}
+.videos {
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  background: url(../images/aboutus/v_bg.jpg) no-repeat center bottom;
+  position: relative;
+}
+.videos .div_mod {
+  position: relative;
+}
+.videos .div_video .swiper_imgs {
+  margin-bottom: 0.4rem;
+}
+.videos .div_video .swiper_imgs .video_cover {
+  position: relative;
+}
+.videos .div_video .swiper_imgs .video_cover p {
+  font-size: 0.24rem;
+  line-height: 2;
+  color: #fff;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.2rem;
+}
+.videos .div_video .swiper_imgs .video_cover::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  background: url(../images/aboutus/v_icon1.png) no-repeat center;
+  background-size: cover;
+  top: 50%;
+  margin-top: -1.25rem;
+  left: 50%;
+  margin-left: -1.25rem;
+  cursor: pointer;
+}
+.videos .div_video .swiper_imgs .video_box {
+  display: none;
+  background: #000;
+}
+.videos .div_video .swiper_imgs .video_box video {
+  width: 100%;
+  height: 100%;
+}
+.videos .div_video .div_icons {
+  position: relative;
+  padding: 0 1rem;
+}
+.videos .div_video .div_icons .swiper-slide {
+  cursor: pointer;
+}
+.videos .div_video .div_icons .swiper-slide::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.6;
+}
+.videos .div_video .div_icons .swiper-slide-thumb-active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/aboutus/v_icon2.png) no-repeat center;
+  background-size: 20%;
+  opacity: 1;
+}
+@media screen and (max-width: 1460px) {
+  .scenery .popupWin {
+    top: 0;
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .profile .div_mod dl {
+    padding: 0.3rem;
+  }
+  .profile .div_mod dl dt {
+    width: 100%;
+  }
+  .profile .div_mod dl dd {
+    width: 100%;
+  }
+  .profile .div_mod4 {
+    padding-bottom: 0;
+  }
+  .profile .div_mod4 .div_text {
+    padding: 0 0.3rem;
+  }
+  .profile .div_mod4 .ul_nulist {
+    padding: 0.3rem 0;
+  }
+  .profile .div_mod4 .ul_nulist li {
+    width: 33.3%;
+    margin-bottom: 0.2rem;
+  }
+  .profile .div_mod4 .ul_nulist li span {
+    font-size: 0.5rem;
+  }
+  .profile .div_mod5 {
+    padding-bottom: 0;
+  }
+  .profile .div_mod5 .ul_nulist {
+    padding: 0.3rem 0;
+  }
+  .profile .div_mod5 .ul_nulist li {
+    width: 33.3%;
+    margin-bottom: 0.2rem;
+  }
+  .profile .div_mod5 .ul_nulist li span {
+    font-size: 0.5rem;
+  }
+  .profile .div_mod5 .ul_nulist li:nth-child(5),
+  .profile .div_mod5 .ul_nulist li:nth-child(6) {
+    width: 33.3%;
+  }
+  .scenery .div_mod1 .div_r {
+    margin-bottom: 0.3rem;
+  }
+  .scenery .div_mod1 .div_r,
+  .scenery .div_mod1 .div_l {
+    width: 100%;
+    padding: 0;
+  }
+  .scenery .div_mod2 {
+    margin-bottom: 0;
+  }
+  .scenery .popupWin {
+    width: 80%;
+    transform: scale(1);
+    left: 10%;
+    height: 90%;
+    top: 10%;
+  }
+  .scenery .popupWin .div_imgs .div_r {
+    width: 100%;
+    padding: 0;
+  }
+  .scenery .popupWin .div_imgs .div_l {
+    width: 100%;
+    padding-top: 0.2rem;
+  }
+  .scenery .popupWin .div_icons {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+  }
+  .scenery .popupWin .div_icons .swiper-container {
+    display: none;
+  }
+  .videos .div_video .swiper_imgs .video_cover::after {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: -0.7rem;
+    margin-top: -0.7rem;
+  }
+  .videos .div_video .div_icons .swiper-slide-thumb-active::after {
+    background-size: 30%;
+  }
+  .videos .div_video .swiper_imgs .video_cover p {
+    font-size: 0.2rem;
+  }
+  .history .div_l,
+  .history .div_r {
+    width: 100%;
+  }
+  .history .div_l {
+    margin-bottom: 0.5rem;
+  }
+  .history .div_r ul li .div_more img {
+    width: 100%;
+    margin-bottom: 0.2rem;
+  }
+  .history .div_r ul li .div_more img:last-child {
+    margin-bottom: 0;
+  }
+  .scenery .popupWin {
+    margin-left: 0;
+    top: 15%;
+  }
+  .scenery .popupWinRw {
+    top: 15%!important;
+  }
+  .scenery .popupWin .div_imgs .div_r .div_tit h2 {
+    margin-bottom: 0.2rem;
+    padding-top: 0.2rem;
+  }
+  .scenery .popupWin .div_icons {
+    top: 0;
+    bottom: 0;
+  }
+  .scenery .direction span {
+    top: 2rem;
+  }
+  .scenery .popupWin .div_imgs .div_l .swiper-slide img {
+    height: 3rem;
+  }
+  .scenery .popupWin .div_icons {
+    display: none;
+  }
+  .videos .direction span {
+    top: 50%;
+  }
+  .profile .div_mod7 dl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .profile .div_mod dl dt {
+    margin-bottom: 0.3rem;
+  }
+  .profile .div_mod dl dd .div_text {
+    height: auto;
+  }
+  .profile .div_mod8 dl {
+    flex-flow: column;
+  }
+  .profile .div_mod4 .ul_nulist li b {
+    font-size: 14px;
+  }
+}

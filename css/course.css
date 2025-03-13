@@ -1,0 +1,1011 @@
+.internationalCourse .div_mod:nth-child(2) {
+  display: none;
+}
+.growthPlatform .div_text {
+  margin-bottom: 0.3rem;
+}
+.growthPlatform .div_mod1:nth-child(1) {
+  margin-bottom: 0.1rem;
+}
+.course .second_nav ul li {
+  width: 50%;
+}
+.course .second_nav ul li.on {
+  border-bottom: 2px solid #f5a100;
+}
+.course .second_nav ul li.on::after {
+  border-top: 6px solid #f5a100;
+}
+.course .second_nav ul li.on span {
+  color: #f5a100;
+}
+.course .second_nav ul li.on span::after {
+  content: "";
+  display: block;
+  border: solid #f5a100;
+  border-width: 0 0.02rem 0.02rem 0;
+}
+.course .dlImgSlide dd a {
+  color: #f5a100;
+}
+.course .container .div_tit h2::after,
+.course .direction span:hover {
+  background: #f5a100;
+}
+.course .direction span i {
+  border: solid #f5a100;
+  border-width: 0 0.04rem 0.04rem 0;
+}
+.course .direction span.s_prev {
+  left: -2px;
+}
+.course .direction span.s_prev i {
+  border-width: 0 0.04rem 0.04rem 0;
+  display: inline-block;
+}
+.course .direction span:hover i {
+  border: solid #fff;
+  border-width: 0 0.04rem 0.04rem 0;
+  display: inline-block;
+}
+.course .news_list ul li .txtbox span {
+  border: 1px solid #f5a100;
+  color: #f5a100;
+}
+.course .news_list ul li .txtbox p {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.course .news_list ul li:hover .txtbox h3 {
+  color: #f5a100;
+}
+.course .news_list ul li:hover .txtbox span {
+  background: #f5a100;
+  color: #fff;
+}
+.curriculum {
+  position: relative;
+  border-top: 2px dashed #f5a100;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+.curriculum .div_cc {
+  position: relative;
+  padding: 0.5rem;
+  padding-top: 0;
+}
+.curriculum .div_cc::after {
+  content: "";
+  display: block;
+  width: 0.12rem;
+  height: 0.45rem;
+  background: url(../images/course/c_icon1.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  top: 1.9rem;
+  left: 50%;
+  margin-left: -0.06rem;
+}
+.curriculum .div_cc span.s1 {
+  display: block;
+  font-size: 0.24rem;
+  color: #f5a100;
+  height: 1.9rem;
+  width: 1.8rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.4s ease-out;
+}
+.curriculum .div_cc span.s1 a {
+  font-size: 0.24rem;
+  color: #f5a100;
+}
+.curriculum .div_cc span.s1:hover {
+  transform: translateY(-0.1rem);
+}
+.curriculum .div_cc ul {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #f5a100;
+  padding: 0 0.1rem;
+  padding-top: 0.5rem;
+  position: relative;
+}
+.curriculum .div_cc ul::after {
+  content: "";
+  display: block;
+  width: 0.12rem;
+  height: 0.12rem;
+  background: url(../images/course/c_icon2.png) no-repeat #fff;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -0.07rem;
+}
+.curriculum .div_cc ul::before {
+  content: "";
+  display: block;
+  width: 0.12rem;
+  height: 0.12rem;
+  background: url(../images/course/c_icon2.png) no-repeat #fff;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: -0.07rem;
+}
+.curriculum .div_cc ul li {
+  text-align: center;
+}
+.curriculum .div_cc ul li img {
+  width: 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.1rem;
+}
+.curriculum .div_cc ul li span {
+  display: block;
+  font-size: 0.22rem;
+  color: #666;
+}
+.curriculum .div_cc1 {
+  width: 40%;
+}
+.curriculum .div_cc1 .s1 {
+  padding-top: 0.7rem;
+  background: url(../images/course/c1_0.png) no-repeat center;
+  background-size: contain;
+}
+.curriculum .div_cc2 {
+  width: 55%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 2px dashed #f5a100;
+  border-bottom: 2px dashed #f5a100;
+  border-radius: 0 0 0 0.5rem;
+}
+.curriculum .div_cc2 .s1 {
+  padding-top: 1.1rem;
+  background: url(../images/course/c2_0.png) no-repeat center;
+  background-size: contain;
+}
+.curriculum .div_cc3 {
+  width: 60%;
+  height: 5rem;
+  padding-top: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+}
+.curriculum .div_cc3 .s1 {
+  padding-top: 0.9rem;
+  background: url(../images/course/c3_0.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  margin-left: -0.9rem !important;
+  left: 50%;
+}
+.curriculum .div_cc3 ul {
+  border-top: none;
+  border-bottom: 2px solid #f5a100;
+  padding-bottom: 0.4rem;
+}
+.curriculum .div_cc3 ul::after,
+.curriculum .div_cc3 ul::before {
+  top: unset;
+  bottom: -0.07rem;
+}
+.curriculum .div_cc3 ul li {
+  position: relative;
+  padding-bottom: 0.6rem;
+}
+.curriculum .div_cc3 ul li img {
+  position: absolute;
+  left: 50%;
+  margin-left: -0.25rem;
+  top: 0.5rem;
+}
+.curriculum .div_cc3::after {
+  transform: rotate(180deg);
+  top: 2.5rem;
+}
+.curriculum .div_cc4 {
+  width: 40%;
+  float: right;
+  border-left: 2px dashed #f5a100;
+  border-bottom: 2px dashed #f5a100;
+  border-radius: 0 0 0 0.5rem;
+  padding-top: 0.5rem;
+  overflow: hidden;
+}
+.curriculum .div_cc4 .s1 {
+  padding-top: 1rem;
+  background: url(../images/course/c4_0.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.curriculum .div_cc4::after {
+  display: none;
+}
+.curriculum .div_cc4 ul {
+  border: none;
+  display: block;
+  float: left;
+  padding: 0;
+}
+.curriculum .div_cc4 ul::before,
+.curriculum .div_cc4 ul::after {
+  display: none;
+}
+.curriculum .div_cc4 ul li {
+  width: 1rem;
+  margin-left: 1rem;
+}
+.curriculum .div_cc4 ul li:nth-child(2) {
+  margin-left: 0rem;
+}
+.comprehensiveCourse .div_table {
+  padding-top: 0.4rem;
+}
+.comprehensiveCourse .div_table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.comprehensiveCourse .div_table table th {
+  background: #f5a100;
+  height: 0.9rem;
+  font-size: 0.3rem;
+  color: #fff;
+  vertical-align: middle;
+  padding: 0 0.5rem;
+  text-align: left;
+}
+.comprehensiveCourse .div_table table td {
+  padding: 0.5rem;
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 1.5;
+}
+.comprehensiveCourse .div_table table td:nth-child(1) {
+  width: 25%;
+}
+.comprehensiveCourse .div_table table td:nth-child(2) {
+  width: 50%;
+}
+.comprehensiveCourse .div_table table td:nth-child(3) {
+  width: 25%;
+}
+.comprehensiveCourse .div_table table tr:nth-child(2n + 1) {
+  background: #f5f5f5;
+}
+.schoolCourseDetails .details_main h4 {
+  text-align: center;
+  font-size: 0.36rem;
+  margin-bottom: 0.6rem;
+}
+.schoolCourseDetails .details_main p {
+  font-size: 0.24rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+.schoolCourseDetails .details_main p:last-child {
+  margin-bottom: 0;
+}
+.schoolCourseDetails .details_main p img {
+  width: 85%;
+  margin: 0 auto;
+}
+.schoolCourseDetails .lunbo {
+  position: relative;
+  padding: 0 1rem;
+}
+.schoolCourseDetails .lunbo .swiper-slide p {
+  font-size: 0.22rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.internationalCourse .div_mod1 .ul_nulist {
+  padding: 0 1rem;
+  padding-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: url(../images/course/i_bg01.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+.internationalCourse .div_mod1 .ul_nulist li {
+  text-align: center;
+  width: 33.3%;
+  margin-bottom: 1rem;
+}
+.internationalCourse .div_mod1 .ul_nulist li span {
+  display: block;
+  font-size: 0.6rem;
+  color: #f5a100;
+}
+.internationalCourse .div_mod1 .ul_nulist li span i {
+  font-size: 0.6rem;
+}
+.internationalCourse .div_mod1 .ul_nulist li span b {
+  font-size: 0.36rem;
+}
+.internationalCourse .div_mod1 .ul_nulist li p {
+  font-size: 0.24rem;
+  color: #555;
+  line-height: 0.4rem;
+}
+.internationalCourse .div_mod1 .ul_nulist li:nth-child(3) span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.internationalCourse .div_mod1 .ul_nulist li:nth-child(2) span {
+  position: relative;
+  display: inline-block;
+}
+.internationalCourse .div_mod1 .ul_nulist li:nth-child(2) span::after {
+  content: "+";
+  display: block;
+  position: absolute;
+  right: -0.3rem;
+  top: 0;
+  font-size: 0.4rem;
+  color: #f5a100;
+}
+.internationalCourse .div_mod2 {
+  position: relative;
+}
+.internationalCourse .div_mod2 .div_map {
+  position: relative;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .s_pot {
+  position: absolute;
+  display: block;
+  width: 0.45rem;
+  height: 0.63rem;
+  background: url(../images/course/pot.png) no-repeat center;
+  background-size: cover;
+  cursor: pointer;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .s_pot.on {
+  background: url(../images/course/potH.png) no-repeat center;
+  background-size: cover;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list {
+  display: none;
+  width: 8.5rem;
+  height: 3.8rem;
+  position: absolute;
+  margin-left: -4.25rem;
+  left: 50%;
+  background: #fff;
+  padding: 0.2rem;
+  bottom: 0.2rem;
+  box-shadow: 0px 2px 2px 0px rgba(1, 1, 1, 0.25);
+  z-index: 20;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list .tit {
+  font-size: 0.28rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list .tit span {
+  color: #f5a100;
+  font-size: 0.28rem;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list ul li {
+  width: 33.3%;
+  text-align: center;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list ul li img {
+  margin: 0 auto;
+  width: auto;
+}
+.internationalCourse .div_mod2 .div_map .div_pot .shol_list ul li span {
+  display: block;
+  font-size: 0.18rem;
+  color: #666;
+  line-height: 2;
+  padding-top: 0.1rem;
+}
+.internationalCourse .div_mod2 .div_map .div_pot.div_pot1 .s_pot {
+  left: 3.2rem;
+  top: 1.6rem;
+}
+.internationalCourse .div_mod2 .div_map .div_pot.div_pot2 .s_pot {
+  left: 5rem;
+  top: 2.2rem;
+}
+.internationalCourse .div_mod2 .div_map .div_pot.div_pot3 .s_pot {
+  left: 7.5rem;
+  top: 1.6rem;
+}
+.internationalCourse .div_mod2 .div_map .div_pot.div_pot4 .s_pot {
+  left: 9.3rem;
+  top: 2rem;
+}
+.internationalCourse .div_mod3 ul {
+  display: flex;
+  justify-content: space-between;
+}
+.internationalCourse .div_mod3 ul li {
+  width: 30%;
+  height: 4rem;
+  box-shadow: 0px 1px 9.8px 0.2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.internationalCourse .div_mod3 ul li .div1 {
+  padding: 0.2rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.internationalCourse .div_mod3 ul li .div1 img {
+  margin-bottom: 0.2rem;
+}
+.internationalCourse .div_mod3 ul li .div1 p {
+  font-size: 0.24rem;
+  color: #333;
+}
+.internationalCourse .div_mod3 ul li .div2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0.3rem;
+  background: #f5a100;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.internationalCourse .div_mod3 ul li .div2 h4 {
+  width: 100%;
+  font-size: 0.48rem;
+  line-height: 100%;
+}
+.internationalCourse .div_mod3 ul li .div2 span {
+  display: block;
+  font-size: 0.18rem;
+  margin-bottom: 0.2rem;
+}
+.internationalCourse .div_mod3 ul li .div2 span::after {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+.internationalCourse .div_mod3 ul li .div2 p {
+  font-size: 0.18rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 0.2rem;
+}
+.internationalCourse .div_mod3 ul li .div2 a {
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border: 1px solid #fff;
+  text-align: center;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.internationalCourse .div_mod4 ul {
+  padding: 0.8rem;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.internationalCourse .div_mod4 ul li {
+  width: 48%;
+  position: relative;
+}
+.internationalCourse .div_mod4 ul li .div_info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 0 1.5rem;
+  padding-top: 1.6rem;
+}
+.internationalCourse .div_mod4 ul li .div_info img {
+  width: 0.8rem;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
+.internationalCourse .div_mod4 ul li .div_info h3 {
+  font-size: 0.36rem;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+.internationalCourse .div_mod4 ul li .div_info span {
+  display: block;
+  font-size: 0.24rem;
+  margin-bottom: 0.7rem;
+  display: none;
+}
+.lihover{
+    overflow: hidden;
+}
+.internationalCourse .div_mod4 ul li .div_info a {
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border: 1px solid #fff;
+  text-align: center;
+  font-size: 0.18rem;
+  color: #fff;
+  display: none;
+}
+.internationalCourse .div_mod4 ul li.lihover .div_info {
+  padding-top: 0.8rem;
+  background: rgba(245, 161, 0, 0.9);
+  animation: yellow-twinkle 0.08s linear;
+}
+.internationalCourse .div_mod4 ul li.lihover .div_info h3 {
+  margin-bottom: 0.2rem;
+}
+.internationalCourse .div_mod4 ul li.lihover .div_info h3::after {
+  content: "";
+  display: block;
+  width: 0.3rem;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+.internationalCourse .div_mod4 ul li.lihover .div_info span {
+  display: block;
+}
+.internationalCourse .div_mod4 ul li.lihover .div_info a {
+  display: block;
+}
+.internationalCourse .lunbo {
+  padding: 0;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.internationalCourse .lunbo ul {
+  padding: 0.3rem 0.1rem;
+}
+.internationalCourse .lunbo ul li {
+  width: auto;
+  margin: 0;
+}
+.internationalCourse .lunbo .direction {
+  display: flex;
+  justify-content: flex-end;
+}
+.internationalCourse .lunbo .direction span {
+  position: relative;
+  margin: 0;
+}
+.internationalCourse .div_codeimg {
+  height: 3.6rem;
+  background: url(../images/course/i_codebg.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.internationalCourse .div_codeimg .div_code {
+  max-width: 2.2rem;
+}
+.internationalCourse .div_codeimg .div_code p {
+  color: #fff;
+  font-size: 0.22rem;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+@keyframes yellow-twinkle {
+  0% {
+    background: none;
+  }
+  100% {
+    background: rgba(245, 161, 0, 0.9);
+  }
+}
+.curriculumSystem .div_mod2 dl {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.curriculumSystem .div_mod2 dl dt {
+  width: 40%;
+}
+.curriculumSystem .div_mod2 dl dd {
+  width: 50%;
+}
+.curriculumSystem .div_mod3 .dlImgSlide dd p {
+  line-height: 2;
+}
+.curriculumSystem .ul_qa li h3 {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #333;
+  height: 1.3rem;
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  padding-left: 1.7rem;
+  position: relative;
+  margin-bottom: 0.1rem;
+}
+.curriculumSystem .ul_qa li h3::after {
+  content: "";
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: url(../images/course/cs_icon1.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.curriculumSystem .ul_qa li .div_text {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-top: 0.3rem;
+  min-height: 1.3rem;
+}
+.curriculumSystem .ul_qa li .div_text::after {
+  content: "";
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: url(../images/course/cs_icon2.png) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.curriculumSystem .ul_qa li .div_text p {
+  position: relative;
+  padding-left: 1.7rem;
+}
+.growthPlatform .lunbo_txtImg_SP dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.growthPlatform .lunbo_txtImg_SP dl dt {
+  width: 48%;
+}
+.growthPlatform .lunbo_txtImg_SP dl dt p {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 2;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.growthPlatform .lunbo_txtImg_SP dl dd {
+  width: 48%;
+}
+.growthPlatform .div_mod3 .lunbo_txtImg_SP dl {
+  flex-flow: row-reverse;
+}
+.growthPlatform .div_mod4 .lunbo_txtImg_SP .div_swiper_icons {
+  left: unset;
+  right: 0.1rem;
+}
+@media screen and (max-width: 1460px) {
+  .internationalCourse .div_mod4 ul li .div_info span,
+  .internationalCourse .div_mod4 ul li .div_info img {
+    margin-bottom: 0.2rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .schoolCourseDetails .details_main p img {
+    width: 85% !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .internationalCourse .div_mod1 .ul_nulist {
+    padding: 0.3rem;
+  }
+  .internationalCourse .div_mod1 .ul_nulist li {
+    width: 48%;
+    margin-bottom: 0.3rem;
+  }
+  .internationalCourse .div_mod1 .ul_nulist li span {
+    font-size: 0.42rem;
+  }
+  .internationalCourse .div_mod2 .shol_list {
+    position: static;
+    width: auto;
+  }
+  .internationalCourse .div_mod2 .shol_list .tit {
+    line-height: 1.8;
+  }
+  .internationalCourse .div_mod2 .shol_list ul {
+    flex-wrap: wrap;
+    padding-right: 0;
+  }
+  .internationalCourse .div_mod2 .shol_list ul li {
+    width: 33.3%;
+    margin-bottom: 0.2rem;
+  }
+  .internationalCourse .div_mod3 ul {
+    flex-wrap: wrap;
+  }
+  .internationalCourse .div_mod3 ul li {
+    width: 100%;
+    margin: 0!important;
+    margin-bottom: 0.3rem !important;
+  }
+  .internationalCourse .div_mod4 ul {
+    padding: 0.3rem;
+    flex-wrap: wrap;
+  }
+  .internationalCourse .div_mod4 ul li {
+    width: 100%;
+    margin-bottom: 0.3rem;
+  }
+  .internationalCourse .div_mod4 ul li .div_info {
+    padding-top: 1rem;
+  }
+  .internationalCourse .div_mod4 ul li .div_info img {
+    margin-bottom: 0.1rem;
+  }
+  .internationalCourse .div_mod4 ul li .div_info h3 {
+    margin-bottom: 0.1rem;
+  }
+  .internationalCourse .div_mod4 ul li .div_info h3::after {
+    margin-top: 0.1rem;
+  }
+  .internationalCourse .div_mod4 ul li .div_info span {
+    margin-bottom: 0.2rem;
+  }
+  .internationalCourse .lunbo {
+    padding: 0.3rem;
+  }
+  .internationalCourse .lunbo ul {
+    padding: 0;
+  }
+  .comprehensiveCourse .div_table table th {
+    padding: 0.3rem;
+    font-size: 0.2rem;
+  }
+  .comprehensiveCourse .div_table table td {
+    padding: 0.2rem;
+  }
+  .curriculumSystem .div_mod2 dl dt,
+  .curriculumSystem .div_mod2 dl dd {
+    width: 100%;
+  }
+  .curriculumSystem .ul_qa li h3 {
+    height: 1rem;
+    padding-left: 1.2rem;
+    font-size: 0.26rem;
+  }
+  .curriculumSystem .ul_qa li .div_text p {
+    padding-left: 1.2rem;
+  }
+  .curriculumSystem .ul_qa li h3::after,
+  .curriculumSystem .ul_qa li .div_text p::after {
+    width: 1rem;
+    height: 1rem;
+  }
+  .schoolCourseDetails .lunbo {
+    padding: 0.4rem 0.8rem;
+  }
+  .curriculum .div_cc {
+    width: 100%!important;
+    border: none!important;
+    position: relative!important;
+    padding: 0;
+  }
+  .curriculum .div_cc::after {
+    top: 2rem;
+  }
+  .curriculum .div_cc ul {
+    padding: 0rem;
+    flex-wrap: wrap;
+    padding-top: 0.3rem;
+    justify-content: left;
+  }
+  .curriculum .div_cc ul li {
+    width: 25%;
+    margin-bottom: 0.2rem;
+  }
+  .curriculum .div_cc4 > span {
+    position: static;
+  }
+  .curriculum .div_cc4 ul {
+    border-top: 2px solid #f5a100;
+    border-bottom: 0;
+    display: flex;
+    float: none;
+  }
+  .curriculum .div_cc4 ul::before,
+  .curriculum .div_cc4 ul::after {
+    top: -0.07rem;
+    bottom: unset;
+  }
+  .curriculum .div_cc4 ul li {
+    margin: 0;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0;
+  }
+  .curriculum .div_cc4 ul li img {
+    position: static;
+  }
+  .curriculum .div_cc3 {
+    bottom: 0;
+    height: auto;
+  }
+  .curriculum .div_cc3 > span {
+    position: static;
+    margin: 0 auto;
+    left: unset;
+    margin-bottom: 0.5rem;
+  }
+  .curriculum .div_cc3::after {
+    transform: rotate(0deg);
+    top: 2rem;
+  }
+  .curriculum .div_cc3 ul {
+    border-top: 2px solid #f5a100;
+    border-bottom: 0;
+  }
+  .curriculum .div_cc3 ul::before,
+  .curriculum .div_cc3 ul::after {
+    top: -0.07rem;
+    bottom: unset;
+  }
+  .curriculum .div_cc3 ul li {
+    margin-bottom: 0.2rem;
+    padding-bottom: 0;
+  }
+  .curriculum .div_cc3 ul li img {
+    position: static;
+  }
+  .internationalCourse .div_mod2 .div_map .div_pot .shol_list {
+    position: static;
+    width: 100%;
+    margin: 0;
+    left: unset;
+    height: auto;
+  }
+  .internationalCourse .div_mod2 .div_map .div_pot .shol_list ul {
+    padding: 0;
+  }
+  .internationalCourse .div_mod2 .div_map .div_pot.div_pot1 .s_pot {
+    left: 1.2rem;
+    top: 0.5rem;
+  }
+  .internationalCourse .div_mod2 .div_map .div_pot.div_pot2 .s_pot {
+    left: 2rem;
+    top: 1rem;
+  }
+  .internationalCourse .div_mod2 .div_map .div_pot.div_pot3 .s_pot {
+    left: 3rem;
+    top: 0.6rem;
+  }
+  .internationalCourse .div_mod2 .div_map .div_pot.div_pot4 .s_pot {
+    left: 4rem;
+    top: 0.5rem;
+  }
+  .internationalCourse .div_mod1 .ul_nulist li span i {
+    font-size: 0.42rem;
+  }
+  .internationalCourse .div_mod4 ul li.lihover .div_info h3 {
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+  }
+  .internationalCourse .div_mod4 ul li .div_info img {
+    width: 30%;
+  }
+  .internationalCourse .div_mod4 ul li.lihover .div_info h3::after {
+    margin-top: 0.1rem !important;
+  }
+  .curriculumSystem .ul_qa li .div_text::after {
+    width: 1rem;
+    height: 1rem;
+  }
+  .curriculumSystem .ul_qa li .div_text {
+    padding-top: 0;
+  }
+  .curriculum .div_cc3 .s1,
+  .curriculum .div_cc4 .s1 {
+    position: static;
+    margin: 0 auto!important;
+    margin-bottom: 0.5rem !important;
+  }
+  .curriculum .div_cc4::after {
+    content: "";
+    display: block;
+    width: 0.12rem;
+    height: 0.45rem;
+    background: url(../images/course/c_icon1.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 1.9rem;
+    left: 50%;
+    margin-left: -0.06rem;
+  }
+  .curriculum .div_cc4 ul::after {
+    content: "";
+    display: block;
+    width: 0.12rem;
+    height: 0.12rem;
+    background: url(../images/course/c_icon2.png) no-repeat #fff;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: -0.07rem;
+  }
+  .curriculum .div_cc4 ul::before {
+    content: "";
+    display: block;
+    width: 0.12rem;
+    height: 0.12rem;
+    background: url(../images/course/c_icon2.png) no-repeat #fff;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: -0.07rem;
+  }
+  .growthPlatform .direction span {
+    top: 50%;
+  }
+  .growthPlatform .div_mod3 .lunbo_txtImg_SP dl {
+    flex-flow: column;
+  }
+  .growthPlatform .lunbo_txtImg_SP dl {
+    flex-wrap: wrap;
+  }
+  .growthPlatform .lunbo_txtImg_SP dl dt {
+    width: 100%;
+  }
+  .growthPlatform .lunbo_txtImg_SP dl dd {
+    width: 100%;
+  }
+  .internationalCourse .div_mod4 ul li.lihover .div_info {
+      padding: 0 1rem;
+  }
+  .internationalCourse .div_mod4 ul li.lihover .div_info img {
+    width: .6rem;
+  }
+
+}
